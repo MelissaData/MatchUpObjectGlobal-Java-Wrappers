@@ -1,0 +1,11 @@
+[Mm]elissa[Uu]pdater/
+
+libmdMatchup.so
+
+*.h
+*.lib
+*.obj
+*.hash
+*.zip
+*.class
+*.jar
