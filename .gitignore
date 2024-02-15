@@ -1,6 +1,7 @@
 [Mm]elissa[Uu]pdater/
 
 libmdMatchup.so
+mdMatchUp.dll
 
 *.h
 *.lib

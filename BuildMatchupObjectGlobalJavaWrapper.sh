@@ -50,7 +50,7 @@ Config_Compiler4="JAVA"
 Config_Architecture4="ANY"
 Config_Type4="INTERFACE"
 
-Com_FileName="mdMatchUp_JavaCode.zip"
+Com_FileName="mdMatchup_JavaCode.zip"
 Com_ReleaseVersion=$RELEASE_VERSION
 Com_OS="ANY"
 Com_Compiler="ANY"
