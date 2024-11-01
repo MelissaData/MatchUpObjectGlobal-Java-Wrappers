@@ -12,7 +12,7 @@ For further details, please visit: https://wiki.melissadata.com/index.php?title=
 ## Tested Environments
 - Windows 10 64-bit Java 19, Microsoft Visual C++ 19.34, Powershell 5.1
 - Ubuntu Linux 20.04.04 LTS 64-bit Java 20, gcc 9.4.0 
-- Melissa MatchUp Object Global for 2024-Q3
+- Melissa MatchUp Object Global for 2024-Q4
 - Wrapper file(s) have not changed since 2023-Q4
 
 ## Getting Started
@@ -20,8 +20,8 @@ These instructions will get you a copy of the wrappers needed to run the Java Ma
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java-Wrappers
-$ cd MatchUpObjectGlobal-Java-Wrappers
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java-Wrappers
+cd MatchUpObjectGlobal-Java-Wrappers
 ```
 
 ### Copy wrappers to your project folder
@@ -79,8 +79,8 @@ Parameter(s)
 - -license (optional): a license string to run the powershell script
 
 ```
-$ .\BuildMatchupJavaWrapper.ps1
-$ .\BuildMatchupJavaWrapper.ps1 -license "<your_license_string>"
+.\BuildMatchupJavaWrapper.ps1
+.\BuildMatchupJavaWrapper.ps1 -license "<your_license_string>"
 ```
 
 ## Linux
@@ -148,8 +148,8 @@ Parameter(s)
 - --license (optional): a license string to run the bash script
 
 ```
-$ ./BuildMatchupJavaWrapper.sh
-$ ./BuildMatchupJavaWrapper.sh --license "<your_license_string>"
+./BuildMatchupJavaWrapper.sh
+./BuildMatchupJavaWrapper.sh --license "<your_license_string>"
 ```
 
 ----------------------------------------

@@ -14,7 +14,7 @@ while [ $# -gt 0 ] ; do
 done
 
 ########################## Config ###########################
-RELEASE_VERSION='2024.Q3'
+RELEASE_VERSION='2024.Q4'
 
 ProjectPath=$(pwd)
 
@@ -113,20 +113,20 @@ DownloadFiles()
   printf "Melissa Updater finished downloading $Com_FileName!\n"
 
   # Check for the zip folder and extract from the zip folder if it was downloaded
-  if [ ! -f "$ProjectPath/mdMatchUp_JavaCode.zip" ];
+  if [ ! -f "$ProjectPath/mdMatchup_JavaCode.zip" ];
   then
-      printf "mdMatchUp_JavaCode.zip not found.\n"
+      printf "mdMatchup_JavaCode.zip not found.\n"
       printf "Aborting program, see above.\n"
 
       exit 1
   else
       if [ ! -d "$ProjectPath/com" ];
       then
-          unzip "$ProjectPath/mdMatchUp_JavaCode.zip" -d "$ProjectPath"
+          unzip "$ProjectPath/mdMatchup_JavaCode.zip" -d "$ProjectPath"
       else
           rm -r "$ProjectPath/com"
 
-          unzip "$ProjectPath/mdMatchUp_JavaCode.zip" -d "$ProjectPath"
+          unzip "$ProjectPath/mdMatchup_JavaCode.zip" -d "$ProjectPath"
       fi
   fi
 }
