@@ -5,23 +5,23 @@ This is the code for you to run MatchUp Object Global in Java.
     
 Please feel free to copy or embed this code to your own project. Happy coding!
 
-For latest Melissa MatchUp Object Global release notes, please visit: https://releasenotes.melissa.com/on-premise-api/matchup-object-global/
+To view the latest Melissa MatchUp Object Global release notes or to subscribe to product notifications, please visit: https://releasenotes.melissa.com/on-premise-api/matchup-object-global/
 
 For further details, please visit: https://wiki.melissadata.com/index.php?title=MatchUp_Object:Reference
 
 ## Tested Environments
-- Windows 10 64-bit Java 19, Microsoft Visual C++ 19.34, Powershell 5.1
+- Windows 11 64-bit Java 19, Microsoft Visual C++ 19.34, Powershell 5.1
 - Ubuntu Linux 20.04.04 LTS 64-bit Java 20, gcc 9.4.0 
-- Melissa MatchUp Object Global for 2025-Q4
-- Wrapper file(s) have not changed since 2023-Q4
+- Melissa MatchUp Object Global for 2026-Q1
+- Wrapper file(s) have not changed since 2026-Q1
 
 ## Getting Started
 These instructions will get you a copy of the wrappers needed to run the Java MatchUp Object Global on your local machine. 
 
 ### Download this project
 ```
-git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java-Wrappers
-cd MatchUpObjectGlobal-Java-Wrappers
+git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/java/melissamatchupobjectglobaljavawrappers.git
+cd melissamatchupobjectglobaljavawrappers
 ```
 
 ### Copy wrappers to your project folder
