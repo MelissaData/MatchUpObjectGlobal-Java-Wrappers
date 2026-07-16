@@ -20,8 +20,8 @@ These instructions will get you a copy of the wrappers needed to run the Java Ma
 
 ### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/java/melissamatchupobjectglobaljavawrappers.git
-cd melissamatchupobjectglobaljavawrappers
+git clone https://github.com/MelissaData/MatchUpObjectGlobal-Java-Wrappers
+cd MatchUpObjectGlobal-Java-Wrappers
 ```
 
 ### Copy wrappers to your project folder
